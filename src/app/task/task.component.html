@@ -1,0 +1,12 @@
+<div>
+    <div class="task-input">
+      <input type="text" placeholder="Create a task" #inputTask>
+      <button (click)="add(inputTask.value)">Add</button>
+    </div>
+    <ul *ngFor="let task of tasksList">
+      <li>
+        <span>{{ task.name }}</span>
+        <button class="delete-button" (click)="delete(task.id)">Delete</button>
+      </li>
+    </ul>
+  </div>

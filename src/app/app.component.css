@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poppings', sans-serif;
+}
+
+.head_container{
+    background-color: #26899E;
+    height: 170px;
+    color: white;
+}
