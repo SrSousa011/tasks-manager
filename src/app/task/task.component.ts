@@ -42,10 +42,6 @@ delete(id: number) {
       this.saveList()
     }
 
-  deleteSelected() {
-    this.tasksList = this.tasksList.filter((task) => !task.selected);
-    this.saveList();
-  }
 
   }
    private saveList(){

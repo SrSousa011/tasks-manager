@@ -41,11 +41,6 @@ button{
   transition: .5s;
 }
 
-.delete-button:hover{
-  background-color: rgb(252, 235, 0);
-  transition: .5s;
-}
-
 
 ul{
   display: flex;
